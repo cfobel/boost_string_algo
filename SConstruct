@@ -1,0 +1,7 @@
+Program('conv_example.cpp')
+Program('find_example.cpp')
+Program('predicate_example.cpp')
+Program('replace_example.cpp')
+Program('split_example.cpp')
+Program('trim_example.cpp')
+Program('regex_example.cpp', LIBS=['boost_regex'])
